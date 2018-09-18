@@ -1,0 +1,15 @@
+Executable : /Users/zhaoliangtai/Downloads/android-sdk-macosx/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/zhaoliangtai/AndroidStudioProjects/EasyRecorder/app
+-B/Users/zhaoliangtai/AndroidStudioProjects/EasyRecorder/app/.externalNativeBuild/cmake/debug/armeabi
+-DANDROID_ABI=armeabi
+-DANDROID_PLATFORM=android-16
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/zhaoliangtai/AndroidStudioProjects/EasyRecorder/app/build/intermediates/cmake/debug/obj/armeabi
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/Users/zhaoliangtai/Downloads/android-sdk-macosx/ndk-bundle
+-DCMAKE_CXX_FLAGS=-frtti -fexceptions
+-DCMAKE_TOOLCHAIN_FILE=/Users/zhaoliangtai/Downloads/android-sdk-macosx/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/zhaoliangtai/Downloads/android-sdk-macosx/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
