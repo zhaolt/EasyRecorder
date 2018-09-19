@@ -82,6 +82,14 @@ public class GLDrawer2D {
         GLES20.glEnableVertexAttribArray(mTexCoordLoc);
     }
 
+    public void setMatrix(final float[] matrix, final int offset) {
+        if ((matrix != null) && (matrix.length >= offset + 16)) {
+            System.arraycopy(matrix, offset, mMVPMatrix, 0, 16);
+        } else {
+            Matrix.setIdentityM(mMVPMatrix, 0);
+        }
+    }
+
     public void release() {
         if (mProgram >= 0)
             GLES20.glDeleteProgram(mProgram);
